@@ -1,12 +1,12 @@
-#Collective-test (PunkAPI)
+# Collective-test (PunkAPI)
 
-##Brief
+## Brief
 Using a public API create a single-page app from a design
 
-##Tech Used
+## Tech Used
 HTML, CSS, Vanilla JavaScript, Github & Git
 
-##Usage
+## Usage
 Fork this repo 
 https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo
 
