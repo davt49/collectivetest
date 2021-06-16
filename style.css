@@ -122,7 +122,14 @@ li{
   text-align: center;
 }
 .load-more-button{
-  padding: 10px 90px;
+  padding: 20px 70px;
+  background-color: #FFD700;
+  border: 1px solid #DAA520;
+  font-size: 20px;
+}
+.load-more-button:hover{
+  background-color: #f3e9b0;
+  
 }
 
 /* tablet */
@@ -185,6 +192,10 @@ li{
   .beer-text{
   font-size: 16px;;
   height: 130px;
+  }
+
+  .load-more-button{
+  padding: 20px 50px;
   }
 }
 
