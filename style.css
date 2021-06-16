@@ -132,7 +132,7 @@ li{
   
 }
 
-/* tablet */
+/* IPad */
 @media only screen and (max-width: 768px){
   #hero{
   background-size: auto 50vh;
@@ -160,7 +160,7 @@ li{
   }
 }
 
-/* Mobile */
+/* IPhone5/SE */
 @media only screen and (max-width: 320px){
   #hero{
   background-size: auto 50vh;
@@ -199,6 +199,7 @@ li{
   }
 }
 
+/* Extra 480px */
 @media only screen and (max-width: 480px){
   #hero{
   background-size: auto 200vh;
