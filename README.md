@@ -7,7 +7,9 @@ Using a public API create a single-page app from a design
 HTML, CSS, Vanilla JavaScript, Github & Git
 
 ## Usage
-Fork this repo 
+Fork this repo ^
+
+Github-guide if you need:
 https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo
 
 Open in a code editor
