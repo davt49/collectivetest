@@ -32,7 +32,7 @@ a:hover{
 
 .nav-icon{
   margin-right: auto;
-  padding-left: 30px;;
+  padding-left: 30px;
 }
 
 li{
@@ -117,7 +117,13 @@ li{
 .footer-copyright p{
   margin: 0;
 }
-
+.load-more-section{
+  padding: 50px;
+  text-align: center;
+}
+.load-more-button{
+  padding: 10px 90px;
+}
 
 /* tablet */
 @media only screen and (max-width: 768px){
@@ -159,6 +165,14 @@ li{
   }
   .hero-section-2{
   width: 0;
+  }
+  .nav-icon{
+  margin-right: auto;
+  padding-left: 10px;
+  }
+  .nav-items{
+    text-align: center;
+    font-size: 30px;
   }
   #beers{
   grid-template-columns: 1fr;
