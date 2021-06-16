@@ -10,9 +10,13 @@ HTML, CSS, Vanilla JavaScript, Github & Git
 
 ## Media Queries
 Responsive design for:
+
 Desktop
+
 IPhone5/SE (width: 320px)
+
 IPad (width: 768px)
+
 Extra (width: 480px)
 
 ## Usage

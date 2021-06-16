@@ -10,6 +10,11 @@ a:hover{
   color: #ffff80;
 }
 
+li{
+  display: inline;
+  padding: 0 20px;
+}
+
 #hero{
   background-image: url(assets/hero.jpeg);
   background-size: 100vw auto;
@@ -17,12 +22,19 @@ a:hover{
   height: 1000px;
 }
 
-
-
 #navbar{
   display: flex;
   justify-content: flex-end;
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+#beers{
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  
+  padding: 0 30px 60px 30px;
+  grid-column-gap: 20px;
 }
 
 .nav-items{
@@ -33,11 +45,6 @@ a:hover{
 .nav-icon{
   margin-right: auto;
   padding-left: 30px;
-}
-
-li{
-  display: inline;
-  padding: 0 20px;
 }
 
 .hero-section{
@@ -72,15 +79,7 @@ li{
   padding: 30px 10px;
 }
 
-#beers{
-  display: grid; 
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  
-  padding: 0 30px 60px 30px;
-  grid-column-gap: 20px;
-   
-}
+
 
 .beer-image{
   width: auto;
@@ -92,6 +91,9 @@ li{
   background-color: #2897b1;
   text-align: center;
   padding: 10px 0 ;
+}
+.img-block:hover{
+  background-color: #ffffff;
 }
 
 .footer{
@@ -132,6 +134,7 @@ li{
   
 }
 
+/* ========================================================= */
 /* IPad */
 @media only screen and (max-width: 768px){
   #hero{
@@ -160,6 +163,7 @@ li{
   }
 }
 
+/* ========================================================= */
 /* IPhone5/SE */
 @media only screen and (max-width: 320px){
   #hero{
@@ -199,6 +203,7 @@ li{
   }
 }
 
+/* ========================================================= */
 /* Extra 480px */
 @media only screen and (max-width: 480px){
   #hero{
