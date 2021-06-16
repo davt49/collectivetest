@@ -25,6 +25,8 @@ https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-
 
 4. For VS Code: Open with Live Server on index.html
 
+*********************************
+
 ![](assets/screenshots/button.png)
 
 ![](assets/screenshots/ipad.png)
