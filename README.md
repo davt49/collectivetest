@@ -1,14 +1,16 @@
 # Collective-test (PunkAPI)
 
 ![](assets/screenshots/hero.png)
-![](assets/screenshots/button.png)
-![](assets/screenshots/ipad.png)
 
 ## Brief
 Using a public API create a single-page app from a design
 
+![](assets/screenshots/button.png)
+
 ## Tech Used
 HTML, CSS, Vanilla JavaScript, Github & Git
+
+![](assets/screenshots/ipad.png)
 
 ## Media Queries
 Responsive design for:
