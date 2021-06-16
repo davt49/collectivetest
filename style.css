@@ -2,12 +2,18 @@ body{
   font-family: Helvetica, sans-serif;
   margin: 0;
 }
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover{
+  color: #ffff80;
+}
 
 #hero{
   background-image: url(assets/hero.jpeg);
   background-size: 100vw auto;
   background-repeat: no-repeat;
-  /* width: 100vw; */
   height: 1000px;
 }
 
@@ -36,7 +42,11 @@ li{
 
 .hero-section{
   color: #ffffff;
-  padding: 160px 900px 0 60px;
+  width: 50%;
+  padding: 160px 50px 0 60px;
+}
+.hero-section-2{
+  width: 50%;
 }
 .hero-title{
   font-size: 60px;
@@ -47,7 +57,7 @@ li{
 }
 
 .beer-heading{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .beer-text{
@@ -57,19 +67,17 @@ li{
 
 .beer-card{
   width: auto;
-  /* width: 420px; */
   height: 310px;
   grid-gap: 10px;
+  padding: 30px 10px;
 }
 
 #beers{
-  /* column-count: 3; */
   display: grid; 
   grid-template-columns: repeat(3, 1fr);
-  /* grid-template-columns: 460px 460px 460px; */
-  /* grid-template-rows: 340px ; */
-  grid-template-rows: repeat(1, 340px);
-  padding: 30px;
+  grid-template-rows: repeat(1, 1fr);
+  
+  padding: 0 30px 60px 30px;
   grid-column-gap: 20px;
    
 }
@@ -113,21 +121,85 @@ li{
 
 /* tablet */
 @media only screen and (max-width: 768px){
+  #hero{
+  background-size: auto 50vh;
+  height: 50vh;
+  }
+
+  .hero-section{
+  padding: 50px 10px;
+  width: 100%;
+  }
+  .hero-section-2{
+  width: 0;
+  }
+
   #beers{
   grid-template-columns: repeat(2, 1fr);
- 
-   
+  
+  }
+  .beer-card{
+    width: 100%;
+  }
+  .beer-text{
+  font-size: 16px;;
+  height: 100px;
   }
 }
 
 /* Mobile */
 @media only screen and (max-width: 320px){
-  
+  #hero{
+  background-size: auto 50vh;
+  height: 50vh;
+  }
+  .hero-section{
+  padding: 50px 10px;
+  width: 100%;
+  }
+  .hero-section-2{
+  width: 0;
+  }
+  #beers{
+  grid-template-columns: 1fr;
+ 
+  }
+  .beer-card{
+    width: 100%;
+  }
+
+  .beer-text{
+  font-size: 16px;;
+  height: 130px;
+  }
 }
 
 @media only screen and (max-width: 480px){
-  
+  #hero{
+  background-size: auto 200vh;
+  height: 150vh;
+  }
+  .hero-section{
+  padding: 50px 10px;
+  }
+  .hero-section{
+  padding: 50px 10px;
+  width: 100%;
+  }
+  .hero-section-2{
+  width: 0;
+  }
+
+  #beers{
+  grid-template-columns: 1fr;
+ 
+  }
+  .beer-card{
+    width: 100%;
+  }
+  .beer-text{
+  font-size: 16px;
+  height: 110px;
+  }
 }
-@media only screen and (max-width: 600px){
-  
-}
+
