@@ -5,12 +5,8 @@
 ## Brief
 Using a public API create a single-page app from a design
 
-![](assets/screenshots/button.png)
-
 ## Tech Used
 HTML, CSS, Vanilla JavaScript, Github & Git
-
-![](assets/screenshots/ipad.png)
 
 ## Media Queries
 Responsive design for:
@@ -28,3 +24,7 @@ https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-
 3. Open in a code editor
 
 4. For VS Code: Open with Live Server on index.html
+
+![](assets/screenshots/button.png)
+
+![](assets/screenshots/ipad.png)
