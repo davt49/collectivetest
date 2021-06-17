@@ -3,7 +3,7 @@
 ![](assets/screenshots/hero.png)
 
 ## Brief
-Using a public API create a single-page app from a design
+Using a public API(https://punkapi.com/) create a single-page app from a design
 
 ## Tech Used
 HTML, CSS, Vanilla JavaScript, Github & Git
