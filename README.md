@@ -22,9 +22,9 @@ IPad (width: 768px)
 Extra (width: 480px)
 
 ## Usage
-1. Fork this repo ^
+1. Fork this repo and create a local clone of the fork
 
-2. Github-guide if you need:
+2. Github-guide if needed:
 https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo
 
 3. Open in a code editor
