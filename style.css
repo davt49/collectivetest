@@ -168,14 +168,21 @@ li{
 @media only screen and (max-width: 320px){
   #hero{
   background-size: auto 50vh;
-  height: 50vh;
+  height: 20vh;
   }
   .hero-section{
   padding: 50px 10px;
   width: 100%;
+  text-align: center;
   }
   .hero-section-2{
   width: 0;
+  }
+  .hero-text{
+  font-size: 18px;
+  }
+  .nav-items{
+    justify-self: center;
   }
   .nav-icon{
   margin-right: auto;
@@ -184,6 +191,11 @@ li{
   .nav-items{
     text-align: center;
     font-size: 30px;
+    padding: 0;
+  }
+  .nav-items li a{
+    width: 320px;
+    display: block;
   }
   #beers{
   grid-template-columns: 1fr;
@@ -209,6 +221,9 @@ li{
   #hero{
   background-size: auto 200vh;
   height: 150vh;
+  }
+  .nav-icon{
+  display:none;
   }
   .hero-section{
   padding: 50px 10px;

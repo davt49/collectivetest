@@ -8,6 +8,8 @@ Using a public API create a single-page app from a design
 ## Tech Used
 HTML, CSS, Vanilla JavaScript, Github & Git
 
+Webpack installed but not yet compiled as I wasn't sure of using it with all vanilla tech (did not use SASS/Frameworks)
+
 ## Media Queries
 Responsive designs for:
 
