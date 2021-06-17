@@ -167,8 +167,8 @@ li{
 /* IPhone5/SE */
 @media only screen and (max-width: 320px){
   #hero{
-  background-size: auto 50vh;
-  height: 20vh;
+  background-size: auto 130vh;
+  height: 130vh;
   }
   .hero-section{
   padding: 50px 10px;
@@ -185,16 +185,14 @@ li{
     justify-self: center;
   }
   .nav-icon{
-  margin-right: auto;
-  padding-left: 10px;
+  display: none;
   }
   .nav-items{
     text-align: center;
-    font-size: 30px;
+    font-size: 16px;
     padding: 0;
   }
-  .nav-items li a{
-    width: 320px;
+  .nav-items{
     display: block;
   }
   #beers{
@@ -219,15 +217,16 @@ li{
 /* Extra 480px */
 @media only screen and (max-width: 480px){
   #hero{
-  background-size: auto 200vh;
-  height: 150vh;
+  background-size: auto 90vh;
+  height: 90vh;
   }
-  .nav-icon{
-  display:none;
-  }
+  
   .hero-section{
   padding: 50px 10px;
+  width: 100%;
+  text-align: center;
   }
+  
   .hero-section{
   padding: 50px 10px;
   width: 100%;
