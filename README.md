@@ -35,4 +35,8 @@ https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-
 
 ![](assets/screenshots/button.png)
 
+Additional "Load More(beers)" Button
+
 ![](assets/screenshots/ipad.png)
+
+IPad responsive design
