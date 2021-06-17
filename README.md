@@ -9,7 +9,7 @@ Using a public API create a single-page app from a design
 HTML, CSS, Vanilla JavaScript, Github & Git
 
 ## Media Queries
-Responsive design for:
+Responsive designs for:
 
 Desktop
 

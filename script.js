@@ -15,7 +15,7 @@ function getData(){
 }
 getData()
 
-let cardtotal = 9
+let cardtotal = 10
 console.log(cardtotal)
 
 function display(data){
@@ -53,7 +53,7 @@ function display(data){
 
 const loadmore = document.querySelector('.load-more-button')
 loadmore.addEventListener('click', () => {
-  cardtotal += 9;
+  cardtotal += 10;
   console.log('clicked', cardtotal)
   const olddivs = document.querySelectorAll('.beer-card')
   olddivs.forEach(div => div.remove())
